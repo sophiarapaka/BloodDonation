@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white">
+
+    <!-- Donor Name -->
+    <TextView
+        android:id="@+id/tvDonorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donor Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <!-- Donation Date -->
+    <TextView
+        android:id="@+id/tvDonationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: 01-Jan-2024"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="4dp" />
+
+    <!-- Blood Group -->
+    <TextView
+        android:id="@+id/tvBloodGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group: O+"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="4dp" />
+
+    <!-- Donation Location -->
+    <TextView
+        android:id="@+id/tvDonationLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: Red Cross Society"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

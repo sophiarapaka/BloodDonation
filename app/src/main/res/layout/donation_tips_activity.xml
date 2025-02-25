@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img2">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donation Tips"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Donation Tip 1 -->
+    <TextView
+        android:id="@+id/tvTip1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Stay hydrated before donating blood. Learn more."
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:minHeight="80dp"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <!-- Donation Tip 2 -->
+    <TextView
+        android:id="@+id/tvTip2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Eat well before your donation. Here's a list of blood donation tips."
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:minHeight="80dp"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <!-- Donation Tip 3 -->
+    <TextView
+        android:id="@+id/tvTip3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Ensure that you are eligible to donate. Visit the National Blood Service for more details."
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:minHeight="80dp"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <!-- Donation Tip 4 -->
+    <TextView
+        android:id="@+id/tvTip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. After donating, rest and rehydrate. Tips for post-donation recovery."
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:minHeight="80dp"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <!-- Donation Tip 5 -->
+    <TextView
+        android:id="@+id/tvTip5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Make a regular habit of donating blood. Why regular donation matters."
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:minHeight="80dp"
+        android:background="?android:attr/selectableItemBackground" />
+
+</LinearLayout>

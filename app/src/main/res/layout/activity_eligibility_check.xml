@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img2"
+    android:gravity="top">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Your Blood Donation Eligibility"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="16dp"
+        android:textStyle="bold" />
+
+    <!-- Age Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/ageInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your age"
+    android:inputType="number"
+    android:textColor="@android:color/black"
+    android:padding="16dp"
+    android:layout_marginTop="8dp" />
+
+    <!-- Weight Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight (kg):"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/weightInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your weight"
+    android:inputType="number"
+    android:textColor="@android:color/black"
+    android:padding="16dp"
+    android:layout_marginTop="8dp" />
+
+    <!-- Health Conditions Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Conditions (Optional):"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etHealthConditions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter any health conditions"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:inputType="text" />
+
+    <!-- Check Eligibility Button -->
+    <Button
+        android:id="@+id/checkEligibilityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Eligibility"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_red_dark"  />
+
+
+    <TextView
+        android:id="@+id/resultText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:textColor="@android:color/black"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    android:padding="16dp"
+    android:text="Your eligibility result will appear here." />
+</LinearLayout>
